@@ -7,8 +7,8 @@ import org.springframework.web.bind.annotation.PathVariable;
 
 import com.cjgmj.microservices.currencyconversion.bean.CurrencyConversionBean;
 
-@FeignClient(name = "forex-service")
-@RibbonClient(name = "forex-service")
+@FeignClient(name = "forex")
+@RibbonClient(name = "forex")
 public interface CurrencyExchangeServiceProxy {
 
 	@GetMapping("/currency-exchange/from/{from}/to/{to}")
