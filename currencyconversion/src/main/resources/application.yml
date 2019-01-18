@@ -1,3 +1,8 @@
+info:
+  app:
+    name: CurrencyConversion
+    description: Server using Ribbon for Load Balancing.
+
 spring:
   application:    name: currency-conversion
     
